@@ -81,17 +81,17 @@ The overall workflow of this repository follows three main stages:
 本專案的整體工作流程分為四個主要階段：
 
 1. Data Preparation / 資料準備
-* Please download the task-specific dataset from Hugging Face: [[hear](https://huggingface.co/Dataset-and-Model)] and place the dataset in the same directory as the training scripts.
-* Experimental result weights can be found [[hear](https://huggingface.co/Dataset-and-Model)].
-* 請到以下hugging face下載任務對應資料集:[[這裡](https://huggingface.co/Dataset-and-Model)]並將資料集與訓練程式放在相同目錄。
-* 實驗結果的權重:[[這裡](https://huggingface.co/Dataset-and-Model)]
+  * Please download the task-specific dataset from Hugging Face: [[hear](https://huggingface.co/Dataset-and-Model)] and place the dataset in the same directory as the training scripts.
+  * Experimental result weights can be found [[hear](https://huggingface.co/Dataset-and-Model)].
+  * 請到以下hugging face下載任務對應資料集:[[這裡](https://huggingface.co/Dataset-and-Model)]並將資料集與訓練程式放在相同目錄。
+  * 實驗結果的權重:[[這裡](https://huggingface.co/Dataset-and-Model)]
 
 2. Model Training / 模型訓練
-* For Continual Learning, use scripts under Continual learning/Train Resnet, Swin, ViT/ and Train ViT-H/ (e.g., EWC.py, VCL.py, FIP.py)
-* For Transfer Learning, use scripts under Transfer learning/ResNet-34/, Swin Transformer/, ViT/, and ViT-H/
-* Continual learning 模式：使用 Continual learning/Train Resnet, Swin, ViT/ 與 Train ViT-H/ 下的程式 (如 EWC.py, VCL.py, FIP.py)
-* Transfer learning 模式：使用 Transfer learning/ResNet-34/, Swin Transformer/, ViT/, ViT-H/ 下的訓練程式
+  * For Continual Learning, use scripts under Continual learning/Train Resnet, Swin, ViT/ and Train ViT-H/ (e.g., EWC.py, VCL.py, FIP.py)
+  * For Transfer Learning, use scripts under Transfer learning/ResNet-34/, Swin Transformer/, ViT/, and ViT-H/
+  * Continual learning 模式：使用 Continual learning/Train Resnet, Swin, ViT/ 與 Train ViT-H/ 下的程式 (如 EWC.py, VCL.py, FIP.py)
+  * Transfer learning 模式：使用 Transfer learning/ResNet-34/, Swin Transformer/, ViT/, ViT-H/ 下的訓練程式
 
 3. Model Evaluation / 模型評估
-* Run prediction scripts (Predict_Swin_VIT_ResNet.py, Predict_ViT-H.py, etc.) to evaluate trained models
-* 執行測試程式 (Predict_Swin_VIT_ResNet.py, Predict_ViT-H.py 等) 評估訓練完成的模型
+  * Run prediction scripts (Predict_Swin_VIT_ResNet.py, Predict_ViT-H.py, etc.) to evaluate trained models
+  * 執行測試程式 (Predict_Swin_VIT_ResNet.py, Predict_ViT-H.py 等) 評估訓練完成的模型
