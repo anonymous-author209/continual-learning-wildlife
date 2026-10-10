@@ -39,8 +39,8 @@ This project is implemented in **Python 3.11.11**. We recommend using a virtual 
 
 ---
 
-## Project Structure
-
+## File Structure
+```text
 continual-learning-wildlife/
 ├── Continual learning/                     # Source code / 原始程式碼
 │   ├── Predict_Swin_VIT_ResNet.py          # Swin, ViT, ResNet testing script / Swin, ViT, ResNet測試程式
@@ -71,5 +71,5 @@ continual-learning-wildlife/
 ├── requirements.txt                        # Python dependencies / Python 依賴套件
 ├── README.md                               # Project documentation / 專案說明文件
 └── LICENSE                                 # License file / 授權文件
-
+```
 
