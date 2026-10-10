@@ -20,7 +20,7 @@ This project is implemented in **Python 3.11.11**. We recommend using a virtual 
 | `numpy` | `2.0.1` | Numerical computation |
 | `tensorboard` | `2.19.0` | Training visualization |
 | `tqdm` | `4.67.1` | Progress bar |
----
+
 ### 1. Create and activate a Python 3.11.11 virtual environment (using Conda as an example)
 `conda create -n wildlife_cl python=3.11.11 -y`
 
@@ -36,3 +36,58 @@ This project is implemented in **Python 3.11.11**. We recommend using a virtual 
 
 ### 2. 安裝所有依賴函式庫
 `pip install -r requirements.txt`
+
+---
+
+## Project Structure
+
+continual-learning-wildlife/
+├── Continual learning/                     # Source code / 原始程式碼
+│   │
+│   ├── Predict_Swin_VIT_ResNet.py     # Swin, ViT, ResNet testing script / Swin, ViT, ResNet測試程式
+│   │
+│   ├── Predict_ViT-H.py     # ViT-H testing script / ViT-H測試程式
+│   │
+│   ├── Train Resnet, Swin, ViT/
+│   │   │
+│   │   ├──Finetune(CrossEntropy).py              # Main training script / 主要訓練程式
+│   │   │
+│   │   ├──EWC.py              # Main training script / 主要訓練程式
+│   │   │
+│   │   ├──VCL.py              # Main training script / 主要訓練程式
+│   │   │
+│   │   └──FIP.py              # Main training script / 主要訓練程式
+│   │
+│   └── Train ViT-H/  
+│       │
+│       ├──Finetune(CrossEntropy).py              # Main training script / 主要訓練程式
+│       │
+│       ├──EWC.py              # Main training script / 主要訓練程式
+│       │
+│       ├──VCL.py              # Main training script / 主要訓練程式
+│       │
+│       └──FIP.py              # Main training script / 主要訓練程式
+│
+├── Transfer learning/                      # Source code / 原始程式碼
+│   │
+│   ├── Predict_Resnet_Swin_ViT.py     # ResNet, Swin, ViT testing script / ResNet, Swin, ViT測試程式
+│   │
+│   ├── Predict_ViT-H.py     # ViT-H testing script / ViT-H測試程式
+│   │
+│   ├── ResNet-34/
+│   │   └──train.py              # Main training script / 主要訓練程式
+│   │
+│   ├── Swin Transformer/
+│   │   └──train.py              # Main training script / 主要訓練程式
+│   │
+│   ├── ViT/
+│   │   └──train.py              # Main training script / 主要訓練程式
+│   │
+│   └── ViT-H/  
+│       └──train.py              # Main training script / 主要訓練程式
+│
+├── requirements.txt          # Python dependencies / Python 依賴套件
+├── README.md                 # Project documentation / 專案說明文件
+└── LICENSE                   # License file / 授權文件
+
+
