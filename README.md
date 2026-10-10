@@ -81,8 +81,8 @@ The overall workflow of this repository follows three main stages:
 本專案的整體工作流程分為四個主要階段：
 
 1. Data Preparation / 資料準備
-  * Please download the task-specific dataset from Hugging Face: [[hear](https://huggingface.co/Dataset-and-Model)] and place the dataset in the same directory as the training scripts.
-  * Experimental result weights can be found [[hear](https://huggingface.co/Dataset-and-Model)].
+  * Please download the task-specific dataset from Hugging Face: [[here](https://huggingface.co/Dataset-and-Model)] and place the dataset in the same directory as the training scripts.
+  * Experimental result weights can be found [[here](https://huggingface.co/Dataset-and-Model)].
   * 請到以下hugging face下載任務對應資料集:[[這裡](https://huggingface.co/Dataset-and-Model)]並將資料集與訓練程式放在相同目錄。
   * 實驗結果的權重:[[這裡](https://huggingface.co/Dataset-and-Model)]
 
