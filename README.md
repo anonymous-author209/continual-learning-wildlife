@@ -21,18 +21,18 @@ This project is implemented in **Python 3.11.11**. We recommend using a virtual 
 | `tensorboard` | `2.19.0` | Training visualization |
 | `tqdm` | `4.67.1` | Progress bar |
 ---
-# 1. Create and activate a Python 3.11.11 virtual environment (using Conda as an example)
+### 1. Create and activate a Python 3.11.11 virtual environment (using Conda as an example)
 `conda create -n wildlife_cl python=3.11.11 -y`
 
 `conda activate wildlife_cl`
 
-# 2. Install all dependencies with a single command
+### 2. Install all dependencies with a single command
 `pip install -r requirements.txt`
 
-# 1. 建立並啟用 Python 3.11.11 的虛擬環境 (以 Conda 為例)
+### 1. 建立並啟用 Python 3.11.11 的虛擬環境 (以 Conda 為例)
 `conda create -n wildlife_cl python=3.11.11 -y`
 
 `conda activate wildlife_cl`
 
-# 2. 安裝所有依賴函式庫
+### 2. 安裝所有依賴函式庫
 `pip install -r requirements.txt`
