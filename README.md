@@ -78,7 +78,8 @@ continual-learning-wildlife/
 ## 🔄 Workflow
 
 The overall workflow of this repository follows three main stages:
-本專案的整體工作流程分為四個主要階段：
+
+本專案的整體工作流程分為三個主要階段：
 
 1. Data Preparation / 資料準備
   * Please download the task-specific dataset from Hugging Face: [[here](https://huggingface.co/Dataset-and-Model)] and place the dataset in the same directory as the training scripts.
