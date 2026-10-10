@@ -1,0 +1,7 @@
+torch==2.6.0+cu124 --extra-index-url https://download.pytorch.org/whl/cu124
+torchvision==0.21.0+cu124 --extra-index-url https://download.pytorch.org/whl/cu124
+transformers==4.30.0
+scikit-learn==1.7.1
+tqdm==4.67.1
+numpy==2.0.1
+tensorboard==2.19.0
