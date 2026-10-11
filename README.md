@@ -72,8 +72,8 @@ continual-learning-wildlife/
 The overall workflow of this repository follows three main stages:
 
 1. Data Preparation
-  * Please download the task-specific dataset from Hugging Face: [[here](https://huggingface.co/Dataset-and-Model)] and place the dataset in the same directory as the training scripts.
-  * Experimental result weights can be found [[here](https://huggingface.co/Dataset-and-Model)].
+  * Please download the task-specific dataset from Hugging Face: [[Transfer Learning](https://anonymous-hf.com/a/gc232h784xp3/)][[Continual Learning](https://anonymous-hf.com/a/n946ij7q1wva/)] and place the dataset in the same directory as the training scripts.
+  * Experimental result weights can be found [[Transfer Learning](https://anonymous-hf.com/a/c3imga7exsy0/)][[Continual Learning(Region)](https://anonymous-hf.com/a/qgkxbqqn3qck/)][[Continual Learning(Taxonomic)](https://anonymous-hf.com/a/7az71pmleqvm/)].
 
 2. Model Training
   * For Continual Learning, use scripts under Continual learning/Train Resnet, Swin, ViT/ and Train ViT-H/ (e.g., EWC.py, VCL.py, FIP.py).
