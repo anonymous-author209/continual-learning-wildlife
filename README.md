@@ -1,5 +1,5 @@
 # continual-learning-wildlife
-This repository contains the official Python implementation for the paper currently under review at *Methods in Ecology and Evolution*. 
+This repository contains the official Python implementation accompanying a manuscript currently under peer review.
 
 To protect the double-blind review process, the authors' identities and institutional affiliations have been thoroughly anonymized across all related platforms.
 
